@@ -1,0 +1,207 @@
+
+Uniform Resource Identifier (URI) SCHEMES
+
+(last updated 2004-01-26)
+
+This is the Official IANA Registry of URI Schemes
+
+In the Uniform Resource Identifier (URI) definition [RFC2396,RFC1738]
+there is a field, called "scheme", to identify the type of resource
+and access method.
+
+Scheme Name     Description                                    Reference
+-----------     -----------------------------------------      ---------
+ftp             File Transfer Protocol                         [RFC1738]
+http            Hypertext Transfer Protocol                    [RFC2616]
+gopher          The Gopher Protocol                            [RFC1738]
+mailto          Electronic mail address                        [RFC2368]
+news            USENET news                                    [RFC1738]
+nntp            USENET news using NNTP access                  [RFC1738]
+telnet          Reference to interactive sessions              [RFC1738]
+wais            Wide Area Information Servers                  [RFC1738]
+file            Host-specific file names                       [RFC1738]
+prospero        Prospero Directory Service                     [RFC1738]
+
+z39.50s         Z39.50 Session                                 [RFC2056]
+z39.50r         Z39.50 Retrieval                               [RFC2056]
+
+cid             content identifier                             [RFC2392]
+mid             message identifier                             [RFC2392]
+
+vemmi           versatile multimedia interface                 [RFC2122]
+
+service         service location                               [RFC2609]
+
+imap            internet message access protocol               [RFC2192]
+
+nfs             network file system protocol                   [RFC2224]
+
+acap            application configuration access protocol      [RFC2244]
+
+rtsp            real time streaming protocol                   [RFC2326]
+
+tip             Transaction Internet Protocol                  [RFC2371] 
+
+pop             Post Office Protocol v3                        [RFC2384]
+
+data            data                                           [RFC2397]
+
+dav             dav                                            [RFC2518]
+opaquelocktoken opaquelocktoken                                [RFC2518]
+
+sip             session initiation protocol                    [RFC3261]
+sips            secure session intitiaion protocol             [RFC3261]
+
+tel             telephone                                      [RFC2806]
+fax             fax                                            [RFC2806]
+modem           modem                                          [RFC2806]
+
+ldap            Lightweight Directory Access Protocol          [RFC2255]
+https           Hypertext Transfer Protocol Secure             [RFC2818]
+
+soap.beep       soap.beep                                      [RFC3288]
+soap.beeps      soap.beeps                                     [RFC3288]
+
+xmlrpc.beep     xmlrpc.beep                                    [RFC3529]
+xmlrpc.beeps    xmlrpc.beeps                                   [RFC3529]
+
+urn             Uniform Resource Names                         [RFC2141]
+                (please see: http://www.iana.org/assignments/urn-namespaces)             
+go              go                                             [RFC3368]
+h323            H.323                                          [RFC3508]
+ipp             Internet Printing Protocol                     [RFC3510]
+tftp            Trivial File Transfer Protocol                 [RFC3617]
+mupdate         Mailbox Update (MUPDATE) Protocol              [RFC3656]
+pres            Presence                                       [RFC-ietf-impp-pres-04.txt]
+im              Instant Messaging                              [RFC-ietf-impp-im-04.txt]
+mtqp            Message Tracking Query Protocol                [RFC-ietf-msgtrk-mtqp-12.txt]
+
+Reserved URI Scheme Names:
+
+   afs              Andrew File System global file names
+   tn3270           Interactive 3270 emulation sessions
+   mailserver       Access to data available from mail servers
+
+
+REFERENCES
+----------
+
+[RFC1738]  Berners-Lee, T., L. Masinter, and M. McCahill, "Uniform
+           Resource Locators (URL)", RFC 1738, CERN, Xerox Corporation,
+           University of Minnesota, December 1994.
+
+[RFC2056]  Denenberg, R., J. Kunze, D. Lynch, "Uniform Resource
+           Locators for Z39.50", RFC 2056, Library of Congress,
+           University of California, San Francisco, SilverPlatter
+           Information Ltd., November 1996.
+
+[RFC2122]  Mavrakis, D., H. Layec, and K. Kartmann, "VEMMI URL
+           Specification", RFC 2122, Monaco Telematique, ETSI,
+           Telecommunication+Multimedia, March 1997.
+
+[RFC2141]  R. Moats, "URN Syntax", RFC 2141, May 1997.
+
+[RFC2165]  Veizades, J., E. Guttman, C. Perkins, and A. Kaplan,
+           "Service Location Protocol", RFC 2165, @Home Network, Sun
+           Microsystems, June 1997.
+
+[RFC2192]  Newman, C., "IMAP URL Scheme", RFC 2192, Innosoft, September 1997.
+
+[RFC2224]  Callaghan, B., "NFS URL Scheme", RFC 2224, Sun Microsystems,
+           October 1997.
+
+[RFC2244]  Newman, C., and J. Myers, "ACAP -- Application Configuration
+           Access Protocol", RFC 2244, Innosoft, Netscape, November 1997.
+
+[RFC2255]  Howes, T. and M. Smith, "The LDAP URL Format", RFC 2255,
+           December 1997.
+
+[RFC2326]  Schulzrinne, H., Rao, A., and R. Lanphier, "Real Time
+           Streaming Protocol (RTSP)", RFC 2326, Columbia U., Netscape,
+           RealNetworks, April 1998.
+     
+[RFC2368]  Hoffman, P., Masinter, L., and J. Zawinski, "The mailto URL
+           scheme", RFC 2368, July 1998.
+
+[RFC2371]  Lyon, J., Evans, K., and J. Klein, "Transaction Internet
+           Protocol Version 3.0", RFC 2371, July 1998.
+
+[RFC2384]  Gellens, R., "POP URL Scheme", RFC 2384, Qualcomm Inc.,
+           August 1998.
+
+[RFC2392]  Levinson, E., "Content-ID and Message-ID Uniform Resource
+           Locators", RFC 2392, XIson Inc, August 1998.
+
+[RFC2396]  Berners-Lee, T., Fielding, R., and L. Masinter, "Uniform
+           Resource Identifiers (URI): Generic Syntax", RFC 2396,
+           August 1998.
+
+[RFC2397]  Masinter, L., "The "data" URL scheme", RFC 2397, August 1998.     
+
+[RFC2518]  Goland, Y., Whitehead, E., Faizi, A., Carter, S. and
+           D. Jensen, "HTTP Extensions for Distributed Authoring --
+           WEBDAV", RFC 2518, February 1999.
+
+[RFC2609]  Guttman, E., Perkins, C., Kempf J., "Service Templates and
+           Service: Schemes", RFC 2609, June 1999.
+
+[RFC2616]  R. Fielding, J. Gettys, J. Mogul, H. Frystyk, L. Masinter, 
+           P. Leach, T. Berners-Lee, "Hypertext Transfer Protocol -- HTTP/1.1", 
+           RFC 2616, June 1999. 
+
+[RFC2806]  Vaha-Sipila, A., "URLs for Telephone Calls", RFC 2806,
+           April 2000.
+
+[RFC2818]  E. Rescorla, "HTTP Over TLS", RFC 2818, May 2000.
+
+[RFC3261]  J. Rosenberg, H. Schulzrinne, G. Camarillo, A. Johnston, 
+           J. Peterson, R. Sparks, M. Handley, and E. Schooler, 
+           "SIP: Session Initiation Protocol", RFC 3261, June 2002.
+
+[RFC3288]  E. O'Tuathail and M. Rose, "Using SOAP in BEEP", 
+           RFC 3288, June 2002.
+
+[RFC3305]  URI Planning Interest Group/W3C/IETF URIs, URLs, and 
+           URNs: Clarifications and Recommendations Report from
+           the joint W3C/IETF URI Planning Interest Group, RFC 3305,
+           August 2002.
+
+[RFC3368]  M. Mealling, "The 'go' URI Scheme for the Common Name 
+           Resolution Protocol", RFC 3368, August 2002. 
+
+[RFC3508]  O. Lvein, "H.323 URL Scheme Registration with IANA", RFC 3508,
+           April 2003.
+
+[RFC3510]  R. Herriot and I. McDonald, "Internet Printing Protocol/1.1: 
+           IPP URL Scheme", RFC 3510, April 2003.
+
+[RFC3529]  W. Harold, "Using XML-RPC in BEEP", RFC 3529, April 2003.
+
+[RFC3617]  E. Lear, "URI Scheme for the TFTP Protocol", RFC 3617, October 2003.
+
+[RFC3656]
+          R. Siemborski, "The MUPDATE Distributed Mailbox Database Protocol",
+          RFC3656, December 2003.
+
+[RFC-ietf-impp-pres-04.txt]
+          J. Peterson, "Common Profile for Presence (CPP)", RFC XXXX, Month Year.
+
+[RFC-ietf-impp-im-04.txt]
+          J. Peterson, " Common Profile for Instant Messaging (CPIM)", RFC XXXX,
+          Month Year. 
+
+[RFC-ietf-msgtrk-mtqp-12.txt]
+          T. Hansen, "Message Tracking Query Protocol", RFC XXXX, 
+          Month Year.
+           
+[]
+
+
+
+
+
+
+
+
+
+
